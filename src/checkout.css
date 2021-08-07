@@ -1,0 +1,14 @@
+.checkout__add{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.Shopping_Basket{
+    margin-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+}
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}

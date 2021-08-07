@@ -1,0 +1,104 @@
+
+@media only screen and (min-width: 300px) and (max-width: 700px){
+    .header{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        margin-top: -32px;
+    }
+    .inpu{
+        width: 60%;
+        height: 32px;
+    }
+    body{
+            width: 100%;
+            height: 100%;
+    }
+    .logo{
+        position: relative;
+        right: 10px;
+        width: 100px;
+    }
+    .links{
+        display: none;
+    }
+    #hidden{
+        height: 250px;
+        position: absolute;
+        top: 66px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        background-color: #131921;
+    
+    }
+    .first_link{
+        margin: 15px 0;
+    }
+    .forth_link{
+        margin: 15px 0;
+    }
+    .btn{
+       height: 32px;
+       width: 32px;
+    }
+    .input_search{
+        position: relative;
+        right: 20px;
+    }
+    .berger{
+        display: flex;
+        position: relative;
+        right:30px;
+    }
+    .banner_image{
+        width: 100%;
+    }
+    .home_row{
+        flex-direction: column;
+        margin-top: 20px;
+        position: relative;
+        top: 90px;
+        left: 10px;
+        width: 80%;
+        height: 100%;
+    }
+    .product_row1{
+        width: 100%;
+    }
+    .buton{
+        position: relative;
+        bottom: 10px;
+    }
+
+    .checkoutproduct{
+        flex-direction: column;
+        border-bottom: 2px solid lightgray;
+    }
+    .checkout__add{
+        position: relative;
+        top: 15px;
+    }
+    .buton1{
+        position: relative;
+        left: 80px;
+    }
+    .checkoutproduct__title{
+        text-align: center;
+    }
+    .checkoutproduct__prise{
+        text-align: center;
+    }
+    .Ricons1{
+        text-align: center;
+    }
+    .checkout{
+        flex-direction: column;
+    }
+    .checkout__right{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+}
